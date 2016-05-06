@@ -12,7 +12,7 @@ $_POST["nama"]='anonymous';
 }
  
 //connect database
-$con=mysqli_connect("localhost", "root", "","admin");
+$con=mysqli_connect("ap-cdbr-azure-southeast-b.cloudapp.net", "b927f13fbfd23d", "5d84d881","sainsadmin");
 if(!$con)
 die("Tidak dapat melakukan koneksi ke server MySQL");
  
