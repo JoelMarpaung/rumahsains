@@ -78,10 +78,10 @@ text-decoration: underline;
                 <td>
                         <div id="publishcomment">
                         <?php 
-                        $servername = "localhost";
-                        $username = "root";
-                        $password = "";
-                        $dbname = "admin";
+                        $servername = "ap-cdbr-azure-southeast-b.cloudapp.net";
+                        $username = "b927f13fbfd23d";
+                        $password = "5d84d881";
+                        $dbname = "sainsadmin";
 
                         // Create connection
                         $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -109,10 +109,10 @@ text-decoration: underline;
                 <td>
                     <div id="publishcomment">
                         <?php 
-                        $servername = "localhost";
-                        $username = "root";
-                        $password = "";
-                        $dbname = "admin";
+                        $servername = "ap-cdbr-azure-southeast-b.cloudapp.net";
+                        $username = "b927f13fbfd23d";
+                        $password = "5d84d881";
+                        $dbname = "sainsadmin";
 
                         // Create connection
                         $conn = mysqli_connect($servername, $username, $password, $dbname);
