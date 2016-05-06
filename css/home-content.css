@@ -1,0 +1,98 @@
+.content{
+    max-width:1350px;
+	margin:auto;
+	min-height:650px;
+}
+/*container*/
+.container{
+	min-width:1300px;
+	float:left;
+	margin-top:10px;
+	margin-left:20px;
+	position: relative;
+}
+.container td{
+	padding:10px;
+}
+/*container*/
+
+/*pict_content*/
+.pict_content{
+	max-width:900px;
+  	min-height:600px;
+  	position: relative;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+    -webkit-box-shadow: 0px -5px 50px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -5px 50px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px -5px 50px -4px rgba(0,0,0,0.75);
+}
+.pict_content td{
+    font-size:15px;
+}
+.pict_table1{
+    min-width:880px;
+	position: relative;
+}
+.pict_table2{
+    min-width:260px;
+	position: relative;
+    padding-bottom: 30px;
+}
+.pict_table2 th{
+    font-size: 25px;
+    background-color: rgba(0,139,139, 1);
+    color:white;
+}
+
+/*pict_content*/
+
+/*list_content*/
+.list_content{
+	max-width:400px;
+  	min-height:600px;
+  	position: relative;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+    -webkit-box-shadow: 0px -5px 50px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -5px 50px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px -5px 50px -4px rgba(0,0,0,0.75);	
+}
+.list_table{
+    width:400px;
+    padding: 10px;
+}
+.list_table th{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 1000;
+    padding-bottom: 10px;
+    border-bottom:5px solid rgba(0,0,0,0.5);
+    color: rgba(0,0,0,0.7);
+    font-family:cursive;
+}
+.list_table li{
+    list-style: none;
+    text-align: justify;
+    font-size: 15px;
+    font-family:monospace;
+}
+.list_table a{
+    color: rgba(0,0,0, 0.5);
+    display:block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom:3px solid rgba(0,0,0, 0.4);
+}
+.list_table a:hover{
+    color: rgba(0,139,139, 1);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom:3px solid rgba(0,139,139, 1);
+}
+
+/*list_content*/

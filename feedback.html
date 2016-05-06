@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>RumahSains - Feedback</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/menu.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/asksains-content.css" type="text/css" media="all" />
+<script src="js/menu-fixed.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="images/icon.gif" />
+</head>
+<body>
+<div class="header">
+<div class="wrap">
+	<div class="logo"><h1><a href="index.html">RumahSains</a></h1></div>
+	<div class="search">
+		<form>
+			<input type="text" value="Pencarian" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Pencarian';}">
+			<input type="submit" value="">
+		</form>
+	</div>
+	<div class="clear"></div>	
+			<div class="top-nav">
+						<div class="menu">
+		<button class="menu-toggle">MENU</button>
+		<div class="multi-level-responsive-menu">
+			<ul class="menu">
+		       <li><a href="index.html">BERANDA</a></li>
+		      <li><a href="#">SEJARAH</a>
+		            <ul>
+						<li><a href="tokoh.html">TOKOH</a></li>
+						<li><a href="asalmula.html">ASAL MULA</a></li>
+					</ul>
+				</li>
+		        <li><a href="kesehatan.html">KESEHATAN</a></li>
+				<li><a href="#">MAKHLUK HIDUP</a>
+		            <ul>
+						<li><a href="manusia.html">MANUSIA</a></li>
+						<li><a href="hewan.html">HEWAN</a></li>
+						<li><a href="tumbuhan.html">TUMBUHAN</a></li>
+					</ul>
+				</li>
+				<li><a href="alamsemesta.html">ALAM SEMESTA</a></li>
+				<li><a href="tentangkami.html">TENTANG KAMI</a></li>
+			</ul>
+		</div>
+					<script>
+					$(document).ready(function() {
+						 var navoffeset=$(".top-nav").offset().top;
+						 $(window).scroll(function(){
+							var scrollpos=$(window).scrollTop(); 
+							if(scrollpos >=navoffeset){
+								$(".top-nav").addClass("fixed");
+							}else{
+								$(".top-nav").removeClass("fixed");
+							}
+						 });
+					});
+					</script>
+</div>
+</div>
+<div class="clear"></div></br>
+<script type="text/javascript" src="js/script.js"></script>
+</div>
+</div>
+<div class="content">
+	<table class="container">
+	<tr>
+		<td>
+			<div class="in_content">
+                    <form name="submitcomment" method="post" action="submitcomment.php"><center>
+                <table>
+                    <tr>
+                        <td colspan="3">
+                            <h1>Feedback</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <p>Berikan kami saran maupun kritik seputar rumah sains, agar kami dapat melakukan perubahan</br> maupun penambahan konten dari website ini.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="20%">Nama</td>
+                        <td width="2%">:</td>
+                        <td><input type="text" name="nama"/></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td><input type="email" name="email"/></td>
+                    </tr>
+                    <tr>
+                        <td>Feedback</td>
+                        <td>:</td>
+                        <td><textarea name="komentar" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input name="art_id" value="1" type="hidden"></td>
+                        <td><input name="art_url" value="feedback.html" type="hidden"></td>
+                        <td><input style="float:right" type="submit" name="tombol" value="Kirim"/></td>
+                        <?php getcomment("1"); ?>
+                    </tr>
+                </table></center>
+                    </form>
+			</div>
+		</td>
+	</tr>
+	</table>
+</div>
+<div class="clear"></div>
+<div class="footer">
+    <div class="link">
+        <table>
+            <tr>
+                <td width="25%">
+                    <div class="subscribe">
+                        <a href="#popup">SUBSCRIBE</a>
+                    </div>
+                    <div id="popup">
+                        <div class="window">
+                            <a href="#" class="close-button" title="Close">X</a>
+                            <form action="">
+                                <input type="email" name="subs" placeholder="Enter E-mail Address"/></br>
+                                <input type="submit" name="subs_kirim" value="SUBSCRIBE"/>
+                            </form>
+                        </div>
+                    </div>
+                </td>
+                <td width="25%">
+                        <ul>
+                            <li><a href="rumahsains.html">Tentang Rumah Sains</a></li>
+                            <li><a href="tanyasains.html">Tanya Sains</a></li>
+                        </ul>
+                </td>
+                <td width="25%">
+                        <ul>
+                            <li><a href="hubungikami.html">Hubungi Kami</a></li>
+                            <li><a href="feedback.html">Feedback</a></li>
+                        </ul>
+                </td>
+                <td width="25%">
+                    <div class="login">
+                        <a href="form.php" target="_blank" title="Rumah Sains - Login Admin">Login Admin</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="copy">
+    	<h1>&copy; 2016 All rights Reserved | Design by Joel Marpaung</h1>
+    </div>
+</div>
+</body>
+</html>
+ 

@@ -1,0 +1,34 @@
+.container{
+	margin:auto;
+	height:100%;
+}
+table {
+    margin: auto;
+    width:1300px;
+}
+tr td{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+/*footer*/
+.footer{
+	background-color:transparent;
+	position:relative;
+	min-width:1325px;
+    text-align: center;
+}
+.copy h1{
+	color:rgba(0,0,0, 0.7);
+	font-size:15px;
+	border-bottom:2px solid rgba(0,0,0,0.5);
+	padding-bottom:10px;	
+}
+.copy{
+	text-align:center;
+	padding:10px;
+	color:#666;
+}
+/*footer*/

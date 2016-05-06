@@ -1,0 +1,89 @@
+
+a{
+	color: #333;
+	text-decoration: none;
+}
+.contain{
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+.clr{
+	clear: both;
+}
+.contain > header{
+	padding: 20px 30px 10px 30px;
+	margin: 0px 20px 10px 20px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.contain > header h1{
+	font-size: 35px;
+	line-height: 35px;
+	position: relative;
+	font-weight: 400;
+	color: #936975;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    padding: 0px 0px 5px 0px;
+}
+.contain > header h1 span{
+	color: #b19099;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+}
+.contain > header h2{
+	font-size: 16px;
+	font-style: italic;
+	color: #593741;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+}
+/* Header Style */
+.codrops-top{
+	line-height: 24px;
+	font-size: 11px;
+	background: rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+}
+.codrops-top a{
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #333;
+	text-shadow: 0px 1px 1px #fff;
+	display: block;
+	float: left;
+}
+.codrops-top a:hover{
+	background: #fff;
+}
+.codrops-top span.right{
+	float: right;
+}
+.codrops-top span.right a{
+	float: left;
+	display: block;
+}
+
+
+#testSlide3 {
+	display: inline-block;
+	border: 1px solid #b19099;
+	padding: 4px 10px 3px;
+	margin: 0px 3px;
+	color: #fff;
+	background: #111;
+}
+/* Media Queries */
+@media screen and (max-width: 767px) {
+	.contain > header{
+		text-align: center;
+	}
+	p.codrops-demos {
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+}
