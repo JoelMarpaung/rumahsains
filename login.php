@@ -4,11 +4,11 @@ session_start();
 $user		= $_POST['user'];
 $password	= $_POST['password'];
 $_SESSION['user'] = $user;
-$Open = mysqli_connect("localhost","root","");
+$Open = mysqli_connect("ap-cdbr-azure-southeast-b.cloudapp.net","b927f13fbfd23d","5d84d881");
 if (!$Open){
 die ("Koneksi ke Engine MySQL Gagal !<br>");
 				}
-$Koneksi = mysqli_select_db($Open,"login");
+$Koneksi = mysqli_select_db($Open,"sainsadmin");
 if (!$Koneksi){
 die ("Koneksi ke Database Gagal !");
 }
